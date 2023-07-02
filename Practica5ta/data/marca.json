@@ -1,0 +1,50 @@
+{
+    "controlador.ed.listas.ListaEnlazada": {
+        "cabecera": {
+            "info": {
+                "@class": "modelo.Marca",
+                "id": 1,
+                "version": "Pro",
+                "siglas": "as",
+                "id_celular": 3
+            },
+            "sig": {
+                "info": {
+                    "@class": "modelo.Marca",
+                    "id": 2,
+                    "version": "Max",
+                    "siglas": "Smg",
+                    "id_celular": 1
+                },
+                "sig": {
+                    "info": {
+                        "@class": "modelo.Marca",
+                        "id": 3,
+                        "version": "Lite",
+                        "siglas": "sn",
+                        "id_celular": 2
+                    },
+                    "sig": {
+                        "info": {
+                            "@class": "modelo.Marca",
+                            "id": 4,
+                            "version": "ProMax",
+                            "siglas": "Xm",
+                            "id_celular": 5
+                        },
+                        "sig": {
+                            "info": {
+                                "@class": "modelo.Marca",
+                                "id": 5,
+                                "version": "Lite",
+                                "siglas": "Hw",
+                                "id_celular": 4
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "size": 5
+    }
+}
